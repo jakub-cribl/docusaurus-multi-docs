@@ -43,9 +43,9 @@ const config = {
     [
       '@docusaurus/plugin-content-docs',
       {
-        id: 'otherDocs',
+        id: 'release-notes',
         path: 'docs2',
-        routeBasePath: 'docs/otherDocs',
+        routeBasePath: 'docs/release-notes',
         sidebarPath: require.resolve('./sidebars2.js'),
         // ... other options
       },
@@ -72,8 +72,8 @@ const config = {
             type: 'doc',
             docId: 'intro',
             position: 'left',
-            label: 'OtherDocs',
-            docsPluginId: 'otherDocs',
+            label: 'release-notes',
+            docsPluginId: 'release-notes',
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
